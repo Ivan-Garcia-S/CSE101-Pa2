@@ -1,0 +1,16 @@
+/*********************************************************************************
+* Ivan Garcia-Sanchez, igarci33
+* 2020 Spring CSE101 PA8
+* README
+*********************************************************************************/
+Arithmetic.c: Top level client for the project
+BigInteger.c: BigInteger implementation file
+BigInteger.h: BigInteger header file
+BigIntegerTest.c: Test for BigInteger ADT
+List.c: List implementation file
+List.h: List header file
+ListTest.c: Test for List ADT
+README: Contents of project
+Makefile: Makefile for the project
+
+NOTES: In my BigInteger.c file I included source code for the strlen() and memcpy() functions from string.h because I was getting a warning that there was two conflicting index() funcitons (one in List.h and one in string.h) so I only copied the two functions in from string.h that I needed.
